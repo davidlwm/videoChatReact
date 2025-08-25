@@ -1,0 +1,25 @@
+# 环境配置文件
+.env
+
+# 日志
+logs/
+*.log
+
+# 依赖
+node_modules/
+
+# 运行时文件
+*.pid
+*.seed
+*.log
+
+# 覆盖测试文件
+coverage/
+
+# IDE
+.vscode/
+.idea/
+
+# OS文件
+.DS_Store
+Thumbs.db

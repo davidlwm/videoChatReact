@@ -1,0 +1,44 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm init:*)",
+      "Bash(npm install:*)",
+      "Bash(npx react-native init frontend --template react-native-template-typescript)",
+      "Bash(npx:*)",
+      "Bash(npm start:*)",
+      "Bash(curl:*)",
+      "Bash(tree:*)",
+      "Bash(npm run:*)",
+      "Bash(chmod:*)",
+      "Bash(./test-app.sh:*)",
+      "Bash(java:*)",
+      "Bash(node:*)",
+      "Bash(npm:*)",
+      "Bash(echo:*)",
+      "Bash(sudo apt update)",
+      "Bash(sudo:*)",
+      "Bash(./android/gradlew:*)",
+      "Bash(./android-build-guide.sh:*)",
+      "Bash(./setup-debug.sh:*)",
+      "Bash(wget:*)",
+      "Bash(unzip:*)",
+      "Bash(export:*)",
+      "Bash(export PATH=$PATH:$ANDROID_HOME/cmdline-tools/latest/bin:$ANDROID_HOME/platform-tools)",
+      "Bash(sdkmanager:*)",
+      "Bash(/opt/android-sdk/cmdline-tools/latest/bin/sdkmanager --version)",
+      "Read(//usr/bin/**)",
+      "Bash(JAVA_HOME=/usr/lib/jvm/java-17-openjdk-amd64 /opt/android-sdk/cmdline-tools/latest/bin/sdkmanager:*)",
+      "Bash(apt:*)",
+      "Bash(chown:*)",
+      "Bash(adb:*)",
+      "Bash(./gradlew:*)",
+      "Bash(scp:*)",
+      "Bash(ssh:*)"
+    ],
+    "deny": [],
+    "ask": [],
+    "additionalDirectories": [
+      "/opt"
+    ]
+  }
+}
